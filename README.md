@@ -38,3 +38,8 @@ index e7c23b5eb..30ed8f045 100644
 -;;
 +let extend_build_path_prefix_map env _how _map = env
 ```
+
+Each repro case contains REAMDE file with an explanation, a dune-workspace file
+with opam repos frozen at specific revisions, and a checked-in non-portable
+lockdir generated on Windows to help keep build failures reproducible over
+time.
