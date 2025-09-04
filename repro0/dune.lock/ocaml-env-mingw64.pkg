@@ -1,0 +1,3 @@
+(version 1)
+
+(depends conf-mingw-w64-gcc-x86_64)

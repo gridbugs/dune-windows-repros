@@ -1,0 +1,15 @@
+(lang dune 3.20)
+
+(repository
+ (name upstream_frozen)
+ (url
+  git+https://github.com/ocaml/opam-repository.git#f2cd184cfc6f3b25d3bda0873beb3e8b254806ec))
+
+(repository
+ (name overlay_frozen)
+ (url
+  git+https://github.com/ocaml-dune/opam-overlays.git#2a9543286ff0e0656058fee5c0da7abc16b8717d))
+
+(lock_dir
+ (repositories upstream_frozen overlay_frozen))
+

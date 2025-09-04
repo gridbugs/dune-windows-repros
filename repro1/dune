@@ -1,0 +1,4 @@
+(executable
+ (public_name repro1)
+ (libraries findlib))
+
