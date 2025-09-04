@@ -1,0 +1,5 @@
+(rule
+ (action
+  (with-stdout-to
+   repro6.output
+   (run "../bin/repro6.exe"))))
