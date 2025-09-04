@@ -1,1 +1,8 @@
-let x = 42
+%token <int> INT
+
+%start <int> main
+
+%%
+
+main:
+| i = INT { i }
