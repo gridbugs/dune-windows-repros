@@ -1,4 +1,0 @@
-(executable
- (public_name repro7)
- (libraries ocp-indent))
-
