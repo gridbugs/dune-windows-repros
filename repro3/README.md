@@ -17,3 +17,5 @@ does not exist
 The workaround is to add `(run sed -i "'s/ocamlfind\\(_opt\\)\\?/&.exe/'" ocamlfind.install)`
 at the start of the list of install commands to modify `ocamlfind.install` to
 add the `.ext` extensions.
+
+This is enough to get the `ocamlfind` package building as a dependency.

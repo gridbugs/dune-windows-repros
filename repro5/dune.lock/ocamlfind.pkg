@@ -2,6 +2,7 @@
 
 (install
  (progn
+  (run sed -i "'s/ocamlfind\\(_opt\\)\\?/&.exe/'" ocamlfind.install)
   (run %{make} install)
   (when
    %{pkg:ocaml:preinstalled}
