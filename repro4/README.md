@@ -1,5 +1,7 @@
 # Repro 4
 
+Github issue: https://github.com/ocaml/dune/issues/12431
+
 Here we depend on `ocamlbuild` and it fails to build with:
 ```
 > dune build

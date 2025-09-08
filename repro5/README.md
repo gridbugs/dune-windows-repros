@@ -1,5 +1,7 @@
 # Repro 5
 
+Github issue: https://github.com/ocaml/dune/issues/12432
+
 For this case we depend on `topkg` but its dependency on `ocamlbuild` is
 manually removed from the lockdir to avoid the issue from Repro 4. Install
 `ocamlbuild` with opam and make sure it's in your PATH for this case.

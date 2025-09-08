@@ -1,5 +1,7 @@
 # Repro 2
 
+Github issue: https://github.com/ocaml/dune/issues/10176. See also https://github.com/ocaml/dune/issues/11159.
+
 Dune's `BUILD_PATH_PREFIX_MAP` environment variable is a colon-separated list
 of `key=value` pairs. One of the entries in this list must contain an absolute
 path (beginning with `C:\`), and the colon following the drive letter is being

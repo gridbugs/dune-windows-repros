@@ -1,5 +1,7 @@
 # Repro 6
 
+Github issue: https://github.com/ocaml/dune/issues/12433
+
 Dune can't find the `menhir` executable even though the `menhir` executable was built successfully:
 
 ```

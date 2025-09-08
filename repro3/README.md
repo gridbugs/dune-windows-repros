@@ -1,5 +1,7 @@
 # Repro 3
 
+Github issue: https://github.com/ocaml/dune/issues/12430
+
 The entries in `ocamlfind.install` omit the `.exe` extension but when the files
 they describe are compiled on windows they have a `.exe` extension. This leads
 to Dune believing that the files listed in `ocamlfind.install` do not exist.

@@ -43,3 +43,5 @@ Each repro case contains REAMDE file with an explanation, a dune-workspace file
 with opam repos frozen at specific revisions, and a checked-in non-portable
 lockdir generated on Windows to help keep build failures reproducible over
 time.
+
+See also: https://github.com/ocaml/dune/issues/11161
